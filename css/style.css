@@ -92,11 +92,65 @@ header{
 
 
 footer{
-   background-color: orange;
+   background-color: #222222;
    position: fixed;
    height: 60px;
    width: 100%;
    bottom: 0;
    left: 0;
    z-index: 9999;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
+
+.sinistra{
+   position: relative;
+   /* line-height: 60px; */
+}
+
+.coppia{
+   text-align: center;
+   display: inline-block;
+   margin: 0 5px 0 5px;
+}
+
+.coppia i{
+   font-size: 25px;
+   display: block;
+}
+
+.coppia span{
+   font-size: 12px;
+}
+
+.fa-angle-up{
+   font-size: 10px;
+   position: absolute;
+   top: 16px;
+}
+
+.prova{
+   display: inline-block;
+}
+
+.centro{
+   position: relative;
+}
+
+.fa-share-from-square{
+   color: #49C304;
+}
+
+.destra{
+   background-color: #4A4A4A;
+   height: 100%;
+   line-height: 40px;
+   padding: 10px;
+}
+
+.destra span{
+   background-color: red;
+   border-radius: 10px;
+   padding: 10px;
+ }
