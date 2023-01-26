@@ -55,17 +55,17 @@ header{
    padding: 50px;
    display: flex;
    flex-wrap: wrap;
-   overflow-y: scroll;
 }
 
 .utente{
    background-image: url("https://picsum.photos/200/300");
    background-size: cover;
    background-repeat: no-repeat;
-   width: calc(100vw / 7 - 5px);
-   height: calc(100vh / 5 - 10px);
+   width: 258px;
+   height: 108px;
    position: relative;
-   margin: 5px;
+   padding: 5px;
+   overflow-y: scroll;
 }
 
 .utente img{
