@@ -1,0 +1,84 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+.flex-center{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/* ----- HEADER ----- */
+
+.utente{
+   background-image: url(../img/***);
+   background-repeat: no-repeat;
+   background-position: center;
+ }
+
+body {
+   background-color: black;
+   color: white;
+}
+
+header{
+   background-color: yellow;
+   position: fixed;
+   height: 50px;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: 9999;
+}
+
+.container-head{
+   display: inline;
+   position: absolute;
+   top: 7px;
+   right: 5px;
+}
+
+.container-head span{
+   background-color: #4A4A4A;
+   border-radius: 5px;
+   padding: 5px;
+}
+
+/* ----- MAIN ----- */
+
+.viewport{
+   width: 100%;
+   height: 100vh;
+   padding: 50px;
+   display: flex;
+   flex-wrap: wrap;
+   overflow-y: scroll;
+}
+
+.utente{
+   background-image: url("https://picsum.photos/200/300");
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: calc(100vw / 7 - 5px);
+   height: calc(100vh / 5 - 10px);
+   position: relative;
+   margin: 5px;
+}
+
+.utente img{
+   height: 100%;
+}
+
+.layover{
+   background-color: rgba(0,0,0,0.5);
+   padding: 5px;
+}
+
+.nome{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+}
