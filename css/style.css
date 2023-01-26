@@ -25,7 +25,6 @@ body {
 }
 
 header{
-   background-color: yellow;
    position: fixed;
    height: 50px;
    width: 100%;
@@ -61,11 +60,12 @@ header{
    background-image: url("https://picsum.photos/200/300");
    background-size: cover;
    background-repeat: no-repeat;
-   width: 258px;
-   height: 108px;
+   min-width: 249px;
+   height: 120px;
    position: relative;
-   padding: 5px;
+   margin: 10px 5px;
    overflow-y: scroll;
+   display: inline-block;
 }
 
 .utente img{
@@ -73,7 +73,7 @@ header{
 }
 
 .layover{
-   background-color: rgba(0,0,0,0.5);
+   background-color: rgba(0,0,0,0.3);
    padding: 5px;
 }
 
@@ -81,4 +81,22 @@ header{
    position: absolute;
    bottom: 0;
    left: 0;
+}
+
+.utente i{
+   color: red;
+}
+
+
+
+
+
+footer{
+   background-color: orange;
+   position: fixed;
+   height: 60px;
+   width: 100%;
+   bottom: 0;
+   left: 0;
+   z-index: 9999;
 }
